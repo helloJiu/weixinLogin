@@ -59,6 +59,5 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'cache.response' => \Flc\Laravel\Http\Middleware\CacheResponse::class,
         'weixin.verify' => \App\Http\Middleware\VerifyWeixin::class,
-        'reject.spider' => \App\Http\Middleware\RejectSpider::class,
     ];
 }
